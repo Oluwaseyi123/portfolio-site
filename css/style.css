@@ -260,6 +260,14 @@ nav .menu-icon img {
   transition: all .2s ease;
 }
 
+.cta a {
+  text-decoration: none;
+}
+
+.cta a:nth-of-type(2) {
+  color: #ffffff;
+}
+
 .portfolio {
   background: none;
   border: 1px solid #ffffff;
@@ -272,6 +280,10 @@ nav .menu-icon img {
   color: #000000;
 }
 
+.port {
+  color: #ffC0CB;
+}
+
 .hire:hover {
   background: #000000;
   color: #ffC0CB;
@@ -282,6 +294,7 @@ nav .menu-icon img {
   background: #ffc0cb;
   border: none;
   margin-left: 15px;
+  color: #ffffff;
 }
 
 .contact {

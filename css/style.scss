@@ -258,6 +258,16 @@ $base: #ffC0CB;
     cursor: pointer;
     transition: all .2s ease;
   }
+
+  .cta{
+    a{
+      text-decoration: none;
+    }
+    
+    a:nth-of-type(2){
+      color: #ffffff;
+    }
+  }
   
   .portfolio {
     background: none;
@@ -269,7 +279,9 @@ $base: #ffC0CB;
     border: none;
     color: #000000;
   }
-
+  .port{
+    color: $base;
+  }
   .hire:hover{
     background: #000000;
     color: $base;
@@ -279,6 +291,7 @@ $base: #ffC0CB;
     background: #ffc0cb;
     border: none;
     margin-left: 15px;
+    color: #ffffff;
   }
   
   .contact {
