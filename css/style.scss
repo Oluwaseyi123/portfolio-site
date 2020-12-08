@@ -6,6 +6,8 @@ $base: #ffC0CB;
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100vh;
   }
   
   body {
@@ -98,8 +100,11 @@ $base: #ffC0CB;
   
   .projects {
     margin-bottom: 30px;
+    transition: all .5s ease-in;
   }
-  
+  .technologies{
+    transition: all .5s ease-in;
+  }
   .projects > p, .technologies > p, .social-medias > p, .contact > p {
     margin-bottom: .5em;
     font-size: 1.5em;
@@ -180,7 +185,9 @@ $base: #ffC0CB;
     
     text-decoration: none;
   }
-  
+  .socials{
+    transition: all .5s ease-in;
+  }
   .social i {
     display: block;
     margin: 0 auto;
@@ -288,7 +295,14 @@ $base: #ffC0CB;
     border: 1px solid #ffffff;
    
   }
+  .fade-in{
+    opacity: 0;
+  }
 
+  .fade-in.active{
+    
+    opacity: 1;
+  }
   
 
   .hire {
@@ -300,6 +314,7 @@ $base: #ffC0CB;
   
   .contact {
     margin-bottom: 20px;
+    transition: all .5s ease-in;
   }
   
   .contact > p {
